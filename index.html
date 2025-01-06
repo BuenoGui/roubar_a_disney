@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <h1>Olá</h1>
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
@@ -44,5 +43,79 @@
         </div>
     </section>
 
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-buttons="em_breve" class="shows__tabs__buttons shows__tabs__buttons--is-active ">Em breve</button>
+            <button data-tab-buttons="em_alta" class="shows__tabs__buttons">Em Alta</button>
+            <button data-tab-buttons="star_plus" class="shows__tabs__buttons">Exclusivos Star+</button>
+        </nav>
+        
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the santa clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
+
+        <ul data-tab-id="em_alta" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/bluey.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="sem limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/red.jpg" alt="the santa clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="willow">
+            </li>
+        </ul>
+
+        <ul data-tab-id="star_plus" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="sem limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="the santa clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="willow">
+            </li>
+        </ul>
+
+
+    </section>
+
+    <script src="./src/main.js"></script>
 </body>
 </html>
